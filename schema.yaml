@@ -8,3 +8,20 @@ components:
       x-walrus-ui:
         groupOrder:
         - Basic
+      required:
+        - name
+        - image_id
+        - flavor_id
+        - az
+        - network_subnet_id
+      properties:
+        name:
+          type: string
+        image_id:
+          type: string
+        flavor_id:
+          type: string
+        az:
+          type: string
+        network_subnet_id:
+          type: string
