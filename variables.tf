@@ -23,3 +23,23 @@ EOF
   type        = map(any)
   default     = {}
 }
+
+variable "name" {
+  type = string
+}
+
+variable "image_id" {
+  type = string
+}
+
+variable "flavor_id" {
+  type = string
+}
+
+variable "az" {
+  type = string
+}
+
+variable "network_subnet_id" {
+  type = string
+}

@@ -36,7 +36,6 @@ output "walrus_resource_id" {
 # Submodule output
 #
 
-output "submodule" {
-  value       = module.submodule.message
-  description = "The message from submodule."
+output "instance_id" {
+  value       = openstack_compute_instance_v2.vm_instance.id
 }
